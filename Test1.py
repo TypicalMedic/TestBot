@@ -1,5 +1,6 @@
 import telebot
 from datetime import datetime
+import requests
 import  json
 
 bot = telebot.TeleBot('1724637364:AAEPqLLPkSfd788vqvneH_dusnBVL5pd2mM')  # коннектимся к нашему боту
