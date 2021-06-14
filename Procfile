@@ -1,2 +1,2 @@
-heroku ps:scale web=0
-heroku ps:scale worker=1
+heroku ps:scale web=1
+web: python user_interaction1.py
