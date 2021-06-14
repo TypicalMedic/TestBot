@@ -8,10 +8,6 @@ users_triggers[1324220572] = {
     'isAddingDeadline': False,
     'choosingWhatToDelete': False
 }
-with open('Database.json', 'r', encoding='utf-8') as openfile:
-    # Reading from json file
-    json_object = json.load(openfile)
-data = dict(json_object)
 
 
 @bot.message_handler(commands=['start', 'help'])  # ответ на определенный тип команд
