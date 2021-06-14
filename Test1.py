@@ -1,5 +1,4 @@
 import telebot
-import database_editing1 as act
 from datetime import datetime
 import  json
 
